@@ -2,9 +2,9 @@ import mysql.connector
 
 DB_CONFIG = {
     'host' : 'localhost',
-    'database': 'photoai_db',
-    'user':'root',
-    'password':''
+    'database': 'photoai_db', #lalinass_photoai_db
+    'user':'root', #lalinass_emon
+    'password':'' #@Emon123456Emon
 }
 
 def get_db_connection():

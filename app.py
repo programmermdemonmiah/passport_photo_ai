@@ -14,6 +14,11 @@ app.config['MAX_CONTENT_LENGTH'] = 30 * 1024 * 1024  # Set to 16 MB (increase as
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 os.makedirs(app.config['PROCESSED_FOLDER'], exist_ok=True)
 
+
+@app.route('/')
+def home():
+    return "Hello, Welcome to Photo ai. made by programmermdemonmiah"
+
 # Registering each blueprint under the '/api' prefix
 app.register_blueprint(bg_remove_image_bp, url_prefix='/api')
 app.register_blueprint(images_bp, url_prefix='/api')
