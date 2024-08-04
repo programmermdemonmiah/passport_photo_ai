@@ -1,7 +1,10 @@
-Flask==2.0.3
-tensorflow==2.8.0
-opencv-python-headless==4.5.5.64
-numpy==1.21.4
+Flask==3.0.3
+Flask-Cors==4.0.1
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
 rembg==2.0.57
-mysql-connector-python==9.0.0
+mysql-connector==2.2.9
 Werkzeug==3.0.3
+
+
+# pip install flask_cors rembg numpy mysql.connector  
